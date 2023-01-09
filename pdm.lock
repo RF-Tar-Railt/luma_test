@@ -1,0 +1,146 @@
+[[package]]
+name = "arclet-alconna"
+version = "1.4.3"
+requires_python = ">=3.8"
+summary = "A High-performance, Generality, Humane Command Line Arguments Parser Library."
+dependencies = [
+    "nepattern>=0.3.2",
+    "typing-extensions~=4.4.0",
+]
+
+[[package]]
+name = "arclet-alconna-tools"
+version = "0.3.3"
+requires_python = ">=3.8"
+summary = "Builtin Tools for Alconna"
+dependencies = [
+    "arclet-alconna>=1.4.3",
+    "nepattern>=0.3.2",
+]
+
+[[package]]
+name = "cli-lite"
+version = "0.4.1"
+requires_python = ">=3.8"
+summary = "A simple framework to build a cli tool, base on Alconna"
+dependencies = [
+    "arclet-alconna-tools>=0.3.3",
+    "arclet-alconna>=1.4.3",
+]
+
+[[package]]
+name = "commonmark"
+version = "0.9.1"
+summary = "Python parser for the CommonMark Markdown spec"
+
+[[package]]
+name = "importlib-metadata"
+version = "6.0.0"
+requires_python = ">=3.7"
+summary = "Read metadata from Python packages"
+dependencies = [
+    "zipp>=0.5",
+]
+
+[[package]]
+name = "nepattern"
+version = "0.4.2"
+requires_python = ">=3.8"
+summary = "a complex pattern, support typing"
+dependencies = [
+    "typing-extensions~=4.4.0",
+]
+
+[[package]]
+name = "pygments"
+version = "2.14.0"
+requires_python = ">=3.6"
+summary = "Pygments is a syntax highlighting package written in Python."
+
+[[package]]
+name = "rich"
+version = "13.0.1"
+requires_python = ">=3.7.0"
+summary = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
+dependencies = [
+    "commonmark<0.10.0,>=0.9.0",
+    "pygments<3.0.0,>=2.6.0",
+]
+
+[[package]]
+name = "tomli"
+version = "2.0.1"
+requires_python = ">=3.7"
+summary = "A lil' TOML parser"
+
+[[package]]
+name = "tomlkit"
+version = "0.11.6"
+requires_python = ">=3.6"
+summary = "Style preserving TOML library"
+
+[[package]]
+name = "typing-extensions"
+version = "4.4.0"
+requires_python = ">=3.7"
+summary = "Backported and Experimental Type Hints for Python 3.7+"
+
+[[package]]
+name = "zipp"
+version = "3.11.0"
+requires_python = ">=3.7"
+summary = "Backport of pathlib-compatible object wrapper for zip files"
+
+[metadata]
+lock_version = "4.0"
+content_hash = "sha256:cfec2cdc54b3ad067236535ac75deac8197e770d8617f823231b9724f14cea0d"
+
+[metadata.files]
+"arclet-alconna 1.4.3" = [
+    {url = "https://files.pythonhosted.org/packages/5b/06/e26ab877bf23b2fd488c720a5803e54f92c86af2eb544f87653767d2c2af/arclet_alconna-1.4.3-py3-none-any.whl", hash = "sha256:642a04072b0ca4b17909a07bfaa14c75ec2924f9d076b65b8c89f1223c96eb87"},
+    {url = "https://files.pythonhosted.org/packages/75/01/ea37adcc68edad1a15f44fb645ab1b4c484b5aafe0a73c2d20748f810fb7/arclet-alconna-1.4.3.tar.gz", hash = "sha256:651563d8a54b20a2541ad3088bc5b8c123aeb44676bdece02540ddd7b1f9ce6b"},
+]
+"arclet-alconna-tools 0.3.3" = [
+    {url = "https://files.pythonhosted.org/packages/a9/58/0b73cf1ed59cf85b56d90268ad45ec72df9fe880f52df0b7e5c49ee64fe6/arclet-alconna-tools-0.3.3.tar.gz", hash = "sha256:a9c29a70c0ba4b836eef06862a333663d5cad7c0c241201ac4078cde026060ea"},
+    {url = "https://files.pythonhosted.org/packages/dd/6e/0aa68b6bcc8852b0e9e9f03f43424444a111a6fa87937e5ac447ab0f90ab/arclet_alconna_tools-0.3.3-py3-none-any.whl", hash = "sha256:226642324c41e0a23be47846a64268a685e1f316639e82850aa2a1388b6eb35f"},
+]
+"cli-lite 0.4.1" = [
+    {url = "https://files.pythonhosted.org/packages/15/ad/13452874f09574e06ebb6fd42dc91a4d4fe26000eed70b0c0ec638e7b6f6/cli_lite-0.4.1-py3-none-any.whl", hash = "sha256:5cc1e1419c314396a09bcb71484d94a57949660c4405a830fc2ef471d82d1528"},
+    {url = "https://files.pythonhosted.org/packages/23/45/83c14916600e6981cce9708c83ad5d65576c30c5cc7e17e25cc7381f6131/cli-lite-0.4.1.tar.gz", hash = "sha256:34b32a417941ebe6c38e9a46b99b7e38453da2f3604ad0baa143ba0494356745"},
+]
+"commonmark 0.9.1" = [
+    {url = "https://files.pythonhosted.org/packages/60/48/a60f593447e8f0894ebb7f6e6c1f25dafc5e89c5879fdc9360ae93ff83f0/commonmark-0.9.1.tar.gz", hash = "sha256:452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60"},
+    {url = "https://files.pythonhosted.org/packages/b1/92/dfd892312d822f36c55366118b95d914e5f16de11044a27cf10a7d71bbbf/commonmark-0.9.1-py2.py3-none-any.whl", hash = "sha256:da2f38c92590f83de410ba1a3cbceafbc74fee9def35f9251ba9a971d6d66fd9"},
+]
+"importlib-metadata 6.0.0" = [
+    {url = "https://files.pythonhosted.org/packages/26/a7/9da7d5b23fc98ab3d424ac2c65613d63c1f401efb84ad50f2fa27b2caab4/importlib_metadata-6.0.0-py3-none-any.whl", hash = "sha256:7efb448ec9a5e313a57655d35aa54cd3e01b7e1fbcf72dce1bf06119420f5bad"},
+    {url = "https://files.pythonhosted.org/packages/90/07/6397ad02d31bddf1841c9ad3ec30a693a3ff208e09c2ef45c9a8a5f85156/importlib_metadata-6.0.0.tar.gz", hash = "sha256:e354bedeb60efa6affdcc8ae121b73544a7aa74156d047311948f6d711cd378d"},
+]
+"nepattern 0.4.2" = [
+    {url = "https://files.pythonhosted.org/packages/8f/64/4cba8d82eeedaa7b58ddd819de317d82b7a70c1764b6ef9474ec7f3f3ea2/nepattern-0.4.2-py3-none-any.whl", hash = "sha256:427520c2ee475dcd7b9f852673b0a26f5396cb4742a65526a636e8d0917defea"},
+    {url = "https://files.pythonhosted.org/packages/ea/70/77d40ee05885c5db32dee73ba1f893ed7f4c4b24c31108e710f5fd80071f/nepattern-0.4.2.tar.gz", hash = "sha256:3f722cf32890a016db3089818933617e73042356a8dad7a8d8ebba0dbce7731c"},
+]
+"pygments 2.14.0" = [
+    {url = "https://files.pythonhosted.org/packages/0b/42/d9d95cc461f098f204cd20c85642ae40fbff81f74c300341b8d0e0df14e0/Pygments-2.14.0-py3-none-any.whl", hash = "sha256:fa7bd7bd2771287c0de303af8bfdfc731f51bd2c6a47ab69d117138893b82717"},
+    {url = "https://files.pythonhosted.org/packages/da/6a/c427c06913204e24de28de5300d3f0e809933f376e0b7df95194b2bb3f71/Pygments-2.14.0.tar.gz", hash = "sha256:b3ed06a9e8ac9a9aae5a6f5dbe78a8a58655d17b43b93c078f094ddc476ae297"},
+]
+"rich 13.0.1" = [
+    {url = "https://files.pythonhosted.org/packages/2f/1a/91f38976d2ed0b955e683fdbaafebf94606ff238b1ef604438a06a6d695f/rich-13.0.1.tar.gz", hash = "sha256:25f83363f636995627a99f6e4abc52ed0970ebbd544960cc63cbb43aaac3d6f0"},
+    {url = "https://files.pythonhosted.org/packages/ea/bc/5ca0a05823fcdf00c64b44448122131319bc0bf53ec9ce715dc960560df2/rich-13.0.1-py3-none-any.whl", hash = "sha256:41fe1d05f433b0f4724cda8345219213d2bfa472ef56b2f64f415b5b94d51b04"},
+]
+"tomli 2.0.1" = [
+    {url = "https://files.pythonhosted.org/packages/97/75/10a9ebee3fd790d20926a90a2547f0bf78f371b2f13aa822c759680ca7b9/tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
+    {url = "https://files.pythonhosted.org/packages/c0/3f/d7af728f075fb08564c5949a9c95e44352e23dee646869fa104a3b2060a3/tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
+]
+"tomlkit 0.11.6" = [
+    {url = "https://files.pythonhosted.org/packages/2b/df/971fa5db3250bb022105d17f340339370f73d502e65e687a94ca1a4c4b1f/tomlkit-0.11.6-py3-none-any.whl", hash = "sha256:07de26b0d8cfc18f871aec595fda24d95b08fef89d147caa861939f37230bf4b"},
+    {url = "https://files.pythonhosted.org/packages/ff/04/58b4c11430ed4b7b8f1723a5e4f20929d59361e9b17f0872d69681fd8ffd/tomlkit-0.11.6.tar.gz", hash = "sha256:71b952e5721688937fb02cf9d354dbcf0785066149d2855e44531ebdd2b65d73"},
+]
+"typing-extensions 4.4.0" = [
+    {url = "https://files.pythonhosted.org/packages/0b/8e/f1a0a5a76cfef77e1eb6004cb49e5f8d72634da638420b9ea492ce8305e8/typing_extensions-4.4.0-py3-none-any.whl", hash = "sha256:16fa4864408f655d35ec496218b85f79b3437c829e93320c7c9215ccfd92489e"},
+    {url = "https://files.pythonhosted.org/packages/e3/a7/8f4e456ef0adac43f452efc2d0e4b242ab831297f1bac60ac815d37eb9cf/typing_extensions-4.4.0.tar.gz", hash = "sha256:1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa"},
+]
+"zipp 3.11.0" = [
+    {url = "https://files.pythonhosted.org/packages/8e/b3/8b16a007184714f71157b1a71bbe632c5d66dd43bc8152b3c799b13881e1/zipp-3.11.0.tar.gz", hash = "sha256:a7a22e05929290a67401440b39690ae6563279bced5f314609d9d03798f56766"},
+    {url = "https://files.pythonhosted.org/packages/d8/20/256eb3f3f437c575fb1a2efdce5e801a5ce3162ea8117da96c43e6ee97d8/zipp-3.11.0-py3-none-any.whl", hash = "sha256:83a28fcb75844b5c0cdaf5aa4003c2d728c77e05f5aeabe8e95e56727005fbaa"},
+]
