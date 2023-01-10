@@ -1,12 +1,12 @@
 [project]
 name = "luma_test"
-version = "0.1.0"
+dynamic = ["version"]
 description = "Luma Test"
 authors = [
     {name = "RF-Tar-Railt", email = "rf_tar_railt@qq.com"},
 ]
 dependencies = [
-    "cli-lite>=0.4.0",
+    "cli-lite>=0.4.3",
     "rich>=13.0.1",
     "importlib-metadata>=3.6; python_version < \"3.10\"",
     "tomli>=1.1.0; python_version < \"3.11\"",
@@ -23,3 +23,10 @@ build-backend = "pdm.pep517.api"
 luma = "luma.__main__:main"
 [tool]
 [tool.pdm]
+
+[tool.pdm.build]
+includes = ["luma"]
+
+[tool.pdm.version]
+source = "file"
+path = "luma/__init__.py"
