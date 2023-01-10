@@ -1,10 +1,11 @@
 [project]
-name = "luma_test"
+name = "luma"
+description = "universal runtime implementation for graia project"
 dynamic = ["version"]
-description = "Luma Test"
 authors = [
     {name = "RF-Tar-Railt", email = "rf_tar_railt@qq.com"},
 ]
+readme = "README.md"
 dependencies = [
     "cli-lite>=0.4.3",
     "rich>=13.0.1",
