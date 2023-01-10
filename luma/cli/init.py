@@ -8,7 +8,7 @@ from luma import termui
 
 @register("luma")
 class Init(BaseCommand):
-    def init_plugin(self) -> Alconna:
+    def init(self) -> Alconna:
         return Alconna(
             "init", Args["project", str, "."],
             Option("-n|--non-interactive", help_text="Don't ask questions but use default values"),

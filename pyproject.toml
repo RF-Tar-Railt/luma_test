@@ -7,7 +7,7 @@ authors = [
 ]
 readme = "README.md"
 dependencies = [
-    "cli-lite>=0.4.3",
+    "cli-lite>=0.5.1",
     "rich>=13.0.1",
     "importlib-metadata>=3.6; python_version < \"3.10\"",
     "tomli>=1.1.0; python_version < \"3.11\"",

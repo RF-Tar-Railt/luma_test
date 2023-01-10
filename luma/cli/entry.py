@@ -36,7 +36,7 @@ def _entry(group: str | None = None, is_list: bool = False):
 
 @register("luma")
 class EntryPoint(BaseCommand):
-    def init_plugin(self) -> Alconna:
+    def init(self) -> Alconna:
         return Alconna(
             "entry", Args["group;?", str, Field(completion=lambda: ["luma-thirdparty", "creart.creators"])],
             Option("--list", help_text="展示当前环境所有的 entry_point"),

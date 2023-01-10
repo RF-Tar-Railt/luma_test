@@ -20,7 +20,7 @@ dependencies = [
 
 [[package]]
 name = "cli-lite"
-version = "0.4.3"
+version = "0.5.1"
 requires_python = ">=3.8"
 summary = "A simple framework to build a cli tool, base on Alconna"
 dependencies = [
@@ -93,7 +93,7 @@ summary = "Backport of pathlib-compatible object wrapper for zip files"
 
 [metadata]
 lock_version = "4.0"
-content_hash = "sha256:b38df7bd65ab03a6924d64e672040881317062971c5738ea64fbe3572b019e25"
+content_hash = "sha256:62dfa0811d6418b72eb81cf2cba56e204b5d3e03c9a91d85d2c6a0f3de24680d"
 
 [metadata.files]
 "arclet-alconna 1.4.3" = [
@@ -104,9 +104,9 @@ content_hash = "sha256:b38df7bd65ab03a6924d64e672040881317062971c5738ea64fbe3572
     {url = "https://files.pythonhosted.org/packages/a9/58/0b73cf1ed59cf85b56d90268ad45ec72df9fe880f52df0b7e5c49ee64fe6/arclet-alconna-tools-0.3.3.tar.gz", hash = "sha256:a9c29a70c0ba4b836eef06862a333663d5cad7c0c241201ac4078cde026060ea"},
     {url = "https://files.pythonhosted.org/packages/dd/6e/0aa68b6bcc8852b0e9e9f03f43424444a111a6fa87937e5ac447ab0f90ab/arclet_alconna_tools-0.3.3-py3-none-any.whl", hash = "sha256:226642324c41e0a23be47846a64268a685e1f316639e82850aa2a1388b6eb35f"},
 ]
-"cli-lite 0.4.3" = [
-    {url = "https://files.pythonhosted.org/packages/22/b4/ea50c64a644dbb0eed2d4280b0d5e5fcfcf7d2c0390a2676106603f474af/cli-lite-0.4.3.tar.gz", hash = "sha256:82721adf5ba859f0bc16235dd036d6db8075bd9f888f49e5ea1069ca12ef467f"},
-    {url = "https://files.pythonhosted.org/packages/d4/c4/b68e43bfbdc6f0ba24e3936b1351bf0849f0d419ff6580c0dda9fb3b9977/cli_lite-0.4.3-py3-none-any.whl", hash = "sha256:07a76fc7e535deced28a101c4f3faf4005b744573f9fe6321038207ff6fff914"},
+"cli-lite 0.5.1" = [
+    {url = "https://files.pythonhosted.org/packages/b9/84/0d95fb4ec83cb36f48ee9f212ac8d1902d982400b5282687f81dc2684a7f/cli_lite-0.5.1-py3-none-any.whl", hash = "sha256:885384d0f89013b5fe3b9e0b9d3b838dbc41680148a82fe2398c841393ad9e7a"},
+    {url = "https://files.pythonhosted.org/packages/cd/8c/6758a19efb2a8a5304c44d9f440feda09ac21ba7d173523b706ea11b9e13/cli-lite-0.5.1.tar.gz", hash = "sha256:b24f733b39a23741f54cadaeb238aee95627341b94f20ee74f8102ae507cea32"},
 ]
 "commonmark 0.9.1" = [
     {url = "https://files.pythonhosted.org/packages/60/48/a60f593447e8f0894ebb7f6e6c1f25dafc5e89c5879fdc9360ae93ff83f0/commonmark-0.9.1.tar.gz", hash = "sha256:452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60"},
